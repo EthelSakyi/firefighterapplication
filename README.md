@@ -1,6 +1,5 @@
 # firefighterapplication
-This code simulates the spread of an infection on a 6x6 grid graph and the effect of deploying firefighters to protect vertices from being infected. It compares the effectiveness of deploying 3 firefighters versus 4 firefighters over multiple simulation runs. Here is a detailed breakdown of what the code does:
-
+This program simulates the spread of an infection on a 6x6 grid graph and the effect of deploying firefighters to protect vertices from being infected. It compares the effectiveness of deploying 3 firefighters versus 4 firefighters over multiple simulation runs.
 1. Graph Creation
    ```
    G = nx.grid_2d_graph(6, 6)
